@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .box {
+            border: 2px dotted plum;
+            width: 200px;
+        }
+
+        /* .ring {
+            position: absolute;
+            top: 30px;
+        } */
+        
+        .ring {
+            position: fixed;
+            top: 30px;
+        } 
+    </style>
+</head>
+
+<body>
+    <h2> CSS Position</h2>
+    <ol>
+        <!--Flow Related-->
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absulute</li>
+        <!--Scroll Related-->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="suim-container">
+        <div class="box boy">
+            <img width="200px" src="Images/hardy.png">
+        </div>
+        <div class="box ring">
+            <img width=200 src="Images/header_bg.png">
+        </div>
+        <div class="box">
+            <img width=190 src="Images/hardy.png">
+        </div>
+    </div>
+</body>
+
+</html>
